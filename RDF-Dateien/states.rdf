@@ -1,0 +1,162 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:wikipedia="http://de.wikipedia.org/wiki/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dbo="http://dbpedia.org/ontology/"
+    xmlns:own="http://www.imn.htwk-leipzig.de/~fanders#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.0="http://de.dbpedia.org/page/Kategorie:Bundesland_%28Deutschland%29"
+    xmlns:geo="http://www.geonames.org/ontology#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Class rdf:about="http://de.dbpedia.org/page/Kategorie:Bundesland_%28Deutschland%29">
+    <rdfs:label xml:lang="eng">A German state</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="http://www.geonames.org/ontology#population">
+    <rdfs:label xml:lang="eng">Total population of the german state</rdfs:label>
+    <rdfs:domain rdf:resource="http://de.dbpedia.org/page/Kategorie:Bundesland_%28Deutschland%29"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.imn.htwk-leipzig.de/~fanders#maleBMI">
+    <rdfs:label xml:lang="eng">Average Bmi of the male population of this state</rdfs:label>
+    <rdfs:domain rdf:resource="http://de.dbpedia.org/page/Kategorie:Bundesland_%28Deutschland%29"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.geonames.org/ontology#name">
+    <rdfs:label xml:lang="eng">Name of the State in German</rdfs:label>
+    <rdfs:domain rdf:resource="http://de.dbpedia.org/page/Kategorie:Bundesland_%28Deutschland%29"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/income">
+    <rdfs:label xml:lang="eng">Average Income of the state's population</rdfs:label>
+    <rdfs:domain rdf:resource="http://de.dbpedia.org/page/Kategorie:Bundesland_%28Deutschland%29"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.imn.htwk-leipzig.de/~fanders#femaleBMI">
+    <rdfs:label xml:lang="eng">Average Bmi of the female population of this state</rdfs:label>
+    <rdfs:domain rdf:resource="http://de.dbpedia.org/page/Kategorie:Bundesland_%28Deutschland%29"/>
+  </owl:DatatypeProperty>
+  <rdf:Description rdf:about="http://de.wikipedia.org/wiki/Hamburg">
+    <own:femaleBMI>24.42</own:femaleBMI>
+    <own:maleBMI>24.43</own:maleBMI>
+    <dbo:income>21999.0</dbo:income>
+    <geo:population>1746000</geo:population>
+    <geo:name>Hamburg</geo:name>
+    <rdf:type rdf:resource="http://de.dbpedia.org/page/Kategorie:Bundesland_%28Deutschland%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://de.wikipedia.org/wiki/Sachsen-Anhalt">
+    <own:femaleBMI>27.82</own:femaleBMI>
+    <own:maleBMI>28.21</own:maleBMI>
+    <dbo:income>17374.0</dbo:income>
+    <geo:population>2245000</geo:population>
+    <geo:name>Sachsen-Anhalt</geo:name>
+    <rdf:type rdf:resource="http://de.dbpedia.org/page/Kategorie:Bundesland_%28Deutschland%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://de.wikipedia.org/wiki/Niedersachsen">
+    <own:femaleBMI>26.04</own:femaleBMI>
+    <own:maleBMI>26.79</own:maleBMI>
+    <dbo:income>19739.0</dbo:income>
+    <geo:population>7791000</geo:population>
+    <geo:name>Niedersachsen</geo:name>
+    <rdf:type rdf:resource="http://de.dbpedia.org/page/Kategorie:Bundesland_%28Deutschland%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://de.wikipedia.org/wiki/Rheinland-Pfalz">
+    <own:femaleBMI>27.06</own:femaleBMI>
+    <own:maleBMI>27.57</own:maleBMI>
+    <dbo:income>21608.0</dbo:income>
+    <geo:population>3994000</geo:population>
+    <geo:name>Rheinland-Pfalz</geo:name>
+    <rdf:type rdf:resource="http://de.dbpedia.org/page/Kategorie:Bundesland_%28Deutschland%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://de.wikipedia.org/wiki/Bayern">
+    <own:femaleBMI>26.52</own:femaleBMI>
+    <own:maleBMI>27.25</own:maleBMI>
+    <dbo:income>22767.0</dbo:income>
+    <geo:population>12604000</geo:population>
+    <geo:name>Bayern</geo:name>
+    <rdf:type rdf:resource="http://de.dbpedia.org/page/Kategorie:Bundesland_%28Deutschland%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://de.wikipedia.org/wiki/Freie_Hansestadt_Bremen">
+    <own:femaleBMI>24.94</own:femaleBMI>
+    <own:maleBMI>24.92</own:maleBMI>
+    <dbo:income>20206.0</dbo:income>
+    <geo:population>0657000</geo:population>
+    <geo:name>Bremen</geo:name>
+    <rdf:type rdf:resource="http://de.dbpedia.org/page/Kategorie:Bundesland_%28Deutschland%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://de.wikipedia.org/wiki/Nordrhein-Westfalen">
+    <own:femaleBMI>26.28</own:femaleBMI>
+    <own:maleBMI>26.84</own:maleBMI>
+    <dbo:income>20409.0</dbo:income>
+    <geo:population>17572000</geo:population>
+    <geo:name>Nordrhein-Westfalen</geo:name>
+    <rdf:type rdf:resource="http://de.dbpedia.org/page/Kategorie:Bundesland_%28Deutschland%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://de.wikipedia.org/wiki/Hessen">
+    <own:femaleBMI>26.42</own:femaleBMI>
+    <own:maleBMI>27.25</own:maleBMI>
+    <dbo:income>21119.0</dbo:income>
+    <geo:population>6045000</geo:population>
+    <geo:name>Hessen</geo:name>
+    <rdf:type rdf:resource="http://de.dbpedia.org/page/Kategorie:Bundesland_%28Deutschland%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://de.wikipedia.org/wiki/Brandenburg">
+    <own:femaleBMI>27.45</own:femaleBMI>
+    <own:maleBMI>27.90</own:maleBMI>
+    <dbo:income>18026.0</dbo:income>
+    <geo:population>2449000</geo:population>
+    <geo:name>Brandenburg</geo:name>
+    <rdf:type rdf:resource="http://de.dbpedia.org/page/Kategorie:Bundesland_%28Deutschland%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://de.wikipedia.org/wiki/Schleswig-Holstein">
+    <own:femaleBMI>25.70</own:femaleBMI>
+    <own:maleBMI>26.26</own:maleBMI>
+    <dbo:income>20892.0</dbo:income>
+    <geo:population>2816000</geo:population>
+    <geo:name>Schleswig-Holstein</geo:name>
+    <rdf:type rdf:resource="http://de.dbpedia.org/page/Kategorie:Bundesland_%28Deutschland%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://de.wikipedia.org/wiki/Sachsen">
+    <own:femaleBMI>27.53</own:femaleBMI>
+    <own:maleBMI>28.06</own:maleBMI>
+    <dbo:income>17802.0</dbo:income>
+    <geo:population>4046000</geo:population>
+    <geo:name>Sachsen</geo:name>
+    <rdf:type rdf:resource="http://de.dbpedia.org/page/Kategorie:Bundesland_%28Deutschland%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg">
+    <own:femaleBMI>26.44</own:femaleBMI>
+    <own:maleBMI>26.94</own:maleBMI>
+    <dbo:income>21968.0</dbo:income>
+    <geo:population>10631000</geo:population>
+    <geo:name>Baden-Württemberg</geo:name>
+    <rdf:type rdf:resource="http://de.dbpedia.org/page/Kategorie:Bundesland_%28Deutschland%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://de.wikipedia.org/wiki/Saarland">
+    <own:femaleBMI>26.60</own:femaleBMI>
+    <own:maleBMI>27.24</own:maleBMI>
+    <dbo:income>19421.0</dbo:income>
+    <geo:population>0991000</geo:population>
+    <geo:name>Saarland</geo:name>
+    <rdf:type rdf:resource="http://de.dbpedia.org/page/Kategorie:Bundesland_%28Deutschland%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://de.wikipedia.org/wiki/Mecklenburg-Vorpommern">
+    <own:femaleBMI>27.36</own:femaleBMI>
+    <own:maleBMI>28.05</own:maleBMI>
+    <dbo:income>17036.0</dbo:income>
+    <geo:population>1597000</geo:population>
+    <geo:name>Mecklenburg-Vorpommern</geo:name>
+    <rdf:type rdf:resource="http://de.dbpedia.org/page/Kategorie:Bundesland_%28Deutschland%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://de.wikipedia.org/wiki/Berlin">
+    <own:femaleBMI>24.92</own:femaleBMI>
+    <own:maleBMI>25.40</own:maleBMI>
+    <dbo:income>17601.0</dbo:income>
+    <geo:population>3422000</geo:population>
+    <geo:name>Berlin</geo:name>
+    <rdf:type rdf:resource="http://de.dbpedia.org/page/Kategorie:Bundesland_%28Deutschland%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://de.wikipedia.org/wiki/Th%C3%BCringen">
+    <own:femaleBMI>27.96</own:femaleBMI>
+    <own:maleBMI>28.39</own:maleBMI>
+    <dbo:income>20507.0</dbo:income>
+    <geo:population>2161000</geo:population>
+    <geo:name>Thüringen</geo:name>
+    <rdf:type rdf:resource="http://de.dbpedia.org/page/Kategorie:Bundesland_%28Deutschland%29"/>
+  </rdf:Description>
+</rdf:RDF>
