@@ -1,0 +1,3403 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dbo="http://dbpedia.org/ontology/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:geo="http://www.geonames.org/ontology#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Class rdf:about="http://dbpedia.org/ontology/city">
+    <rdfs:label xml:lang="eng">A german city</rdfs:label>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://dbpedia.org/ontology/federalState">
+    <rdfs:label xml:lang="eng">The german State this city belongs to</rdfs:label>
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/city"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://www.geonames.org/ontology#population">
+    <rdfs:label xml:lang="eng">Total population of the german city</rdfs:label>
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/city"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.geonames.org/ontology#name">
+    <rdfs:label xml:lang="eng">The Name of the City in German</rdfs:label>
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/city"/>
+  </owl:DatatypeProperty>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/L%C3%BCbeck">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Schleswig-Holstein"/>
+    <geo:population>212958</geo:population>
+    <geo:name>Lübeck</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Idar-Oberstein">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Rheinland-Pfalz"/>
+    <geo:population>28323</geo:population>
+    <geo:name>Idar-Oberstein</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Rotenburg_(W%C3%BCmme)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>20944</geo:population>
+    <geo:name>Rotenburg Wümme</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Waltrop">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>28885</geo:population>
+    <geo:name>Waltrop</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Friedrichsdorf">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>24577</geo:population>
+    <geo:name>Friedrichsdorf</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Gladbeck">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>74011</geo:population>
+    <geo:name>Gladbeck</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bad_Mergentheim">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>22470</geo:population>
+    <geo:name>Bad Mergentheim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Heidenheim_an_der_Brenz">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>46419</geo:population>
+    <geo:name>Heidenheim an der Brenz</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Stuttgart">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>604297</geo:population>
+    <geo:name>Stuttgart</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Rastede">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>21259</geo:population>
+    <geo:name>Rastede</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Freudenstadt">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>22282</geo:population>
+    <geo:name>Freudenstadt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bad_Rappenau">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>20193</geo:population>
+    <geo:name>Bad Rappenau</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Zweibr%C3%BCcken">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Rheinland-Pfalz"/>
+    <geo:population>34084</geo:population>
+    <geo:name>Zweibrücken</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Rees">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>21303</geo:population>
+    <geo:name>Rees</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Jena">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Th%C3%BCringen"/>
+    <geo:population>107679</geo:population>
+    <geo:name>Jena</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Landau_in_der_Pfalz">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Rheinland-Pfalz"/>
+    <geo:population>43825</geo:population>
+    <geo:name>Landau in der Pfalz</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Lindlar">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>21038</geo:population>
+    <geo:name>Lindlar</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Salzgitter">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>98197</geo:population>
+    <geo:name>Salzgitter</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Augsburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>276542</geo:population>
+    <geo:name>Augsburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Freising">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>45806</geo:population>
+    <geo:name>Freising</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org#FN_22">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>26177</geo:population>
+    <geo:name>Weinstadt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/B%C3%B6blingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>46714</geo:population>
+    <geo:name>Böblingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/D%C3%BClmen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>45870</geo:population>
+    <geo:name>Dülmen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Erkrath">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>43639</geo:population>
+    <geo:name>Erkrath</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org#FN_10">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Brandenburg"/>
+    <geo:population>38844</geo:population>
+    <geo:name>Eberswalde</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wedel">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Schleswig-Holstein"/>
+    <geo:population>32289</geo:population>
+    <geo:name>Wedel</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Olpe">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>24592</geo:population>
+    <geo:name>Olpe</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/T%C3%B6nisvorst">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>29181</geo:population>
+    <geo:name>Tönisvorst</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Isernhagen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>23090</geo:population>
+    <geo:name>Isernhagen </geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Herborn">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>20366</geo:population>
+    <geo:name>Herborn</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Schw%C3%A4bisch_Gm%C3%BCnd">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>58564</geo:population>
+    <geo:name>Schwäbisch Gmünd</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wuppertal">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>343488</geo:population>
+    <geo:name>Wuppertal</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Senftenberg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Brandenburg"/>
+    <geo:population>24987</geo:population>
+    <geo:name>Senftenberg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bad_Honnef">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>24845</geo:population>
+    <geo:name>Bad Honnef</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Kaarst">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>42165</geo:population>
+    <geo:name>Kaarst</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Metzingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>21172</geo:population>
+    <geo:name>Metzingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Schleswig">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Schleswig-Holstein"/>
+    <geo:population>23635</geo:population>
+    <geo:name>Schleswig</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/M%C3%BClheim_an_der_Ruhr">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>166640</geo:population>
+    <geo:name>Mülheim an der Ruhr</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wismar">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Mecklenburg-Vorpommern"/>
+    <geo:population>42219</geo:population>
+    <geo:name>Wismar</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Detmold">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>73449</geo:population>
+    <geo:name>Detmold</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Korbach">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>23264</geo:population>
+    <geo:name>Korbach</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/K%C3%B6nigs_Wusterhausen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Brandenburg"/>
+    <geo:population>34240</geo:population>
+    <geo:name>Königs Wusterhausen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Rheinbach">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>26790</geo:population>
+    <geo:name>Rheinbach</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Nettetal">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>41533</geo:population>
+    <geo:name>Nettetal</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Hanau">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>89907</geo:population>
+    <geo:name>Hanau</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Winnenden">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>27361</geo:population>
+    <geo:name>Winnenden</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/M%C3%BChlheim_am_Main">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>27475</geo:population>
+    <geo:name>Mühlheim am Main</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Oberhausen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>209097</geo:population>
+    <geo:name>Oberhausen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org#FN_11">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>39868</geo:population>
+    <geo:name>Dreieich</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Limburg_an_der_Lahn">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>33843</geo:population>
+    <geo:name>Limburg an der Lahn</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org#FN_23">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>26494</geo:population>
+    <geo:name>Rödermark</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Plauen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen"/>
+    <geo:population>63967</geo:population>
+    <geo:name>Plauen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Rathenow">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Brandenburg"/>
+    <geo:population>24164</geo:population>
+    <geo:name>Rathenow</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Neustadt_am_R%C3%BCbenberge">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>43378</geo:population>
+    <geo:name>Neustadt am Rübenberge</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Waldshut-Tiengen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>22808</geo:population>
+    <geo:name>Waldshut-Tiengen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wiesloch">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>25502</geo:population>
+    <geo:name>Wiesloch</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Hemer">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>34678</geo:population>
+    <geo:name>Hemer</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Buxtehude">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>39777</geo:population>
+    <geo:name>Buxtehude</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Geseke">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>20511</geo:population>
+    <geo:name>Geseke</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Hagen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>185996</geo:population>
+    <geo:name>Hagen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Taunusstein">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>28515</geo:population>
+    <geo:name>Taunusstein</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Apolda">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Th%C3%BCringen"/>
+    <geo:population>21738</geo:population>
+    <geo:name>Apolda</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Pirmasens">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Rheinland-Pfalz"/>
+    <geo:population>40101</geo:population>
+    <geo:name>Pirmasens</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Schramberg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>20716</geo:population>
+    <geo:name>Schramberg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Laupheim">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>20213</geo:population>
+    <geo:name>Laupheim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Geretsried">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>23610</geo:population>
+    <geo:name>Geretsried</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Suhl">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Th%C3%BCringen"/>
+    <geo:population>35665</geo:population>
+    <geo:name>Suhl</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Potsdam">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Brandenburg"/>
+    <geo:population>161468</geo:population>
+    <geo:name>Potsdam</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Lehrte">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>43048</geo:population>
+    <geo:name>Lehrte</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Sonthofen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>21388</geo:population>
+    <geo:name>Sonthofen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Halle_(Saale)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen-Anhalt"/>
+    <geo:population>231565</geo:population>
+    <geo:name>Halle Saale</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Saarbr%C3%BCcken">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Saarland"/>
+    <geo:population>177201</geo:population>
+    <geo:name>Saarbrücken</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org#FN_32">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>20074</geo:population>
+    <geo:name>Rheinstetten</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Sundern_(Sauerland)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>28022</geo:population>
+    <geo:name>Sundern Sauerland</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Walsrode">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>23353</geo:population>
+    <geo:name>Walsrode</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Kleve">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>48172</geo:population>
+    <geo:name>Kleve</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Lampertheim">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>31491</geo:population>
+    <geo:name>Lampertheim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Brandenburg_an_der_Havel">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Brandenburg"/>
+    <geo:population>71032</geo:population>
+    <geo:name>Brandenburg an der Havel</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Mei%C3%9Fen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen"/>
+    <geo:population>27135</geo:population>
+    <geo:name>Meißen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/B%C3%BCdingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>20995</geo:population>
+    <geo:name>Büdingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Frankfurt_(Oder)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Brandenburg"/>
+    <geo:population>58018</geo:population>
+    <geo:name>Frankfurt Oder</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Datteln">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>34332</geo:population>
+    <geo:name>Datteln</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Iserlohn">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>93119</geo:population>
+    <geo:name>Iserlohn</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Syke">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>23666</geo:population>
+    <geo:name>Syke</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Ludwigshafen_am_Rhein">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Rheinland-Pfalz"/>
+    <geo:population>161518</geo:population>
+    <geo:name>Ludwigshafen am Rhein</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Burg_(bei_Magdeburg)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen-Anhalt"/>
+    <geo:population>22828</geo:population>
+    <geo:name>Burg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/W%C3%BClfrath">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>20946</geo:population>
+    <geo:name>Wülfrath</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/D%C3%BCren">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>88953</geo:population>
+    <geo:name>Düren</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Seevetal">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>40159</geo:population>
+    <geo:name>Seevetal </geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Emsdetten">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>35447</geo:population>
+    <geo:name>Emsdetten</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/F%C3%BCrth">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>119808</geo:population>
+    <geo:name>Fürth</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Heide_(Holstein)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Schleswig-Holstein"/>
+    <geo:population>21105</geo:population>
+    <geo:name>Heide</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Heinsberg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>40908</geo:population>
+    <geo:name>Heinsberg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Remscheid">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>108955</geo:population>
+    <geo:name>Remscheid</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Herford">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>65333</geo:population>
+    <geo:name>Herford</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Cloppenburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>32985</geo:population>
+    <geo:name>Cloppenburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Rudolstadt">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Th%C3%BCringen"/>
+    <geo:population>22739</geo:population>
+    <geo:name>Rudolstadt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bad_Homburg_vor_der_H%C3%B6he">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>52379</geo:population>
+    <geo:name>Bad Homburg vor der Höhe</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Freital">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen"/>
+    <geo:population>39276</geo:population>
+    <geo:name>Freital</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org#FN_5">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen-Anhalt"/>
+    <geo:population>41259</geo:population>
+    <geo:name>Bitterfeld-Wolfen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org#FN_30">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>22115</geo:population>
+    <geo:name>Riedstadt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Erkelenz">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>42792</geo:population>
+    <geo:name>Erkelenz</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Stolberg_(Rheinland)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>56191</geo:population>
+    <geo:name>Stolberg Rheinland</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Gotha">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Th%C3%BCringen"/>
+    <geo:population>44325</geo:population>
+    <geo:name>Gotha</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Dachau">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>45621</geo:population>
+    <geo:name>Dachau</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Buchholz_in_der_Nordheide">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>37876</geo:population>
+    <geo:name>Buchholz in der Nordheide</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wilnsdorf">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>20196</geo:population>
+    <geo:name>Wilnsdorf</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bocholt">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>70856</geo:population>
+    <geo:name>Bocholt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Meschede">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>30103</geo:population>
+    <geo:name>Meschede</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/M%C3%BCnchen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>1407836</geo:population>
+    <geo:name>München</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Soest">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>46699</geo:population>
+    <geo:name>Soest</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Hildesheim">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>99390</geo:population>
+    <geo:name>Hildesheim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Dillenburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>23602</geo:population>
+    <geo:name>Dillenburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Meiningen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Th%C3%BCringen"/>
+    <geo:population>20966</geo:population>
+    <geo:name>Meiningen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Ditzingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>24272</geo:population>
+    <geo:name>Ditzingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Neu-Isenburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>35698</geo:population>
+    <geo:name>Neu-Isenburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org#FN_6">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>44631</geo:population>
+    <geo:name>Filderstadt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org#FN_31">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>20239</geo:population>
+    <geo:name>Burgwedel</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Esslingen_am_Neckar">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>89242</geo:population>
+    <geo:name>Esslingen am Neckar</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Netphen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>23051</geo:population>
+    <geo:name>Netphen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Eisenach">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Th%C3%BCringen"/>
+    <geo:population>41567</geo:population>
+    <geo:name>Eisenach</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Fl%C3%B6rsheim_am_Main">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>20197</geo:population>
+    <geo:name>Flörsheim am Main</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Versmold">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>20753</geo:population>
+    <geo:name>Versmold</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bad_Kreuznach">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Rheinland-Pfalz"/>
+    <geo:population>48229</geo:population>
+    <geo:name>Bad Kreuznach</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Gummersbach">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>49665</geo:population>
+    <geo:name>Gummersbach</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Kaufbeuren">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>41759</geo:population>
+    <geo:name>Kaufbeuren</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/J%C3%BClich">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>32089</geo:population>
+    <geo:name>Jülich</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org#FN_7">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>43115</geo:population>
+    <geo:name>Rodgau</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Northeim">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>28865</geo:population>
+    <geo:name>Northeim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Hann._M%C3%BCnden">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>23668</geo:population>
+    <geo:name>Hann. Münden</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Schwedt/Oder">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Brandenburg"/>
+    <geo:population>30539</geo:population>
+    <geo:name>Schwedt/Oder</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Niederkassel">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>36841</geo:population>
+    <geo:name>Niederkassel</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Moormerland">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>22667</geo:population>
+    <geo:name>Moormerland </geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Petershagen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>25451</geo:population>
+    <geo:name>Petershagen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Sprockh%C3%B6vel">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>24989</geo:population>
+    <geo:name>Sprockhövel</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Meinerzhagen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>20689</geo:population>
+    <geo:name>Meinerzhagen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Enger">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>20228</geo:population>
+    <geo:name>Enger</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Tuttlingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>33394</geo:population>
+    <geo:name>Tuttlingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Hilden">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>54737</geo:population>
+    <geo:name>Hilden</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Sonneberg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Th%C3%BCringen"/>
+    <geo:population>23796</geo:population>
+    <geo:name>Sonneberg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Weingarten_(W%C3%BCrttemberg)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>23694</geo:population>
+    <geo:name>Weingarten</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Mannheim">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>296690</geo:population>
+    <geo:name>Mannheim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Forchheim">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>30705</geo:population>
+    <geo:name>Forchheim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Langen_(Hessen)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>35845</geo:population>
+    <geo:name>Langen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Neustadt_an_der_Weinstra%C3%9Fe">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Rheinland-Pfalz"/>
+    <geo:population>52400</geo:population>
+    <geo:name>Neustadt an der Weinstraße</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Br%C3%BChl_(Rheinland)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>44029</geo:population>
+    <geo:name>Brühl</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Starnberg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>22650</geo:population>
+    <geo:name>Starnberg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Aurich">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>40637</geo:population>
+    <geo:name>Aurich</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Donaueschingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>21190</geo:population>
+    <geo:name>Donaueschingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org#FN_8">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>42210</geo:population>
+    <geo:name>Bietigheim-Bissingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Gelsenkirchen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>257850</geo:population>
+    <geo:name>Gelsenkirchen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Ravensburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>49098</geo:population>
+    <geo:name>Ravensburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Gardelegen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen-Anhalt"/>
+    <geo:population>23110</geo:population>
+    <geo:name>Gardelegen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/G%C3%BCstrow">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Mecklenburg-Vorpommern"/>
+    <geo:population>28540</geo:population>
+    <geo:name>Güstrow</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/W%C3%BCrselen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>37685</geo:population>
+    <geo:name>Würselen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/F%C3%BCrstenfeldbruck">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>34648</geo:population>
+    <geo:name>Fürstenfeldbruck</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Friedrichshafen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>57961</geo:population>
+    <geo:name>Friedrichshafen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bad_Zwischenahn">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>27866</geo:population>
+    <geo:name>Bad Zwischenahn </geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Barsinghausen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>33231</geo:population>
+    <geo:name>Barsinghausen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Leipzig">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen"/>
+    <geo:population>531582</geo:population>
+    <geo:name>Leipzig</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Kleinmachnow">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Brandenburg"/>
+    <geo:population>20405</geo:population>
+    <geo:name>Kleinmachnow</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Emmerich_am_Rhein">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>30105</geo:population>
+    <geo:name>Emmerich am Rhein</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bernburg_(Saale)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen-Anhalt"/>
+    <geo:population>33879</geo:population>
+    <geo:name>Bernburg Saale</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Neus%C3%A4%C3%9F">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>21377</geo:population>
+    <geo:name>Neusäß</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wermelskirchen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>34472</geo:population>
+    <geo:name>Wermelskirchen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Ottobrunn">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>20784</geo:population>
+    <geo:name>Ottobrunn</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Schwelm">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>27898</geo:population>
+    <geo:name>Schwelm</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Freiberg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen"/>
+    <geo:population>40268</geo:population>
+    <geo:name>Freiberg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Duisburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>486855</geo:population>
+    <geo:name>Duisburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Naumburg_(Saale)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen-Anhalt"/>
+    <geo:population>32804</geo:population>
+    <geo:name>Naumburg Saale</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Blieskastel">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Saarland"/>
+    <geo:population>20879</geo:population>
+    <geo:name>Blieskastel</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Selm">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>25553</geo:population>
+    <geo:name>Selm</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Lippstadt">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>66312</geo:population>
+    <geo:name>Lippstadt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bingen_am_Rhein">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Rheinland-Pfalz"/>
+    <geo:population>24234</geo:population>
+    <geo:name>Bingen am Rhein</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Neuruppin">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Brandenburg"/>
+    <geo:population>30345</geo:population>
+    <geo:name>Neuruppin</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Xanten">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>21186</geo:population>
+    <geo:name>Xanten</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Mettmann">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>37867</geo:population>
+    <geo:name>Mettmann</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Traunreut">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>20300</geo:population>
+    <geo:name>Traunreut</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Geislingen_an_der_Steige">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>26356</geo:population>
+    <geo:name>Geislingen an der Steige</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Ingelheim_am_Rhein">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Rheinland-Pfalz"/>
+    <geo:population>24283</geo:population>
+    <geo:name>Ingelheim am Rhein</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Hannover">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>518386</geo:population>
+    <geo:name>Hannover</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org#FN_18">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>32988</geo:population>
+    <geo:name>Mörfelden-Walldorf</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Lage_(Lippe)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>34671</geo:population>
+    <geo:name>Lage</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Schw%C3%A4bisch_Hall">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>37452</geo:population>
+    <geo:name>Schwäbisch Hall</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Annaberg-Buchholz">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen"/>
+    <geo:population>20510</geo:population>
+    <geo:name>Annaberg-Buchholz</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/L%C3%BCbbecke">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>25398</geo:population>
+    <geo:name>Lübbecke</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/J%C3%BCchen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>22556</geo:population>
+    <geo:name>Jüchen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Andernach">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Rheinland-Pfalz"/>
+    <geo:population>29027</geo:population>
+    <geo:name>Andernach</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Quedlinburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen-Anhalt"/>
+    <geo:population>25055</geo:population>
+    <geo:name>Quedlinburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Sehnde">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>23181</geo:population>
+    <geo:name>Sehnde</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Dorsten">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>75547</geo:population>
+    <geo:name>Dorsten</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Aichach">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>20560</geo:population>
+    <geo:name>Aichach</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/%C3%9Cberlingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>22046</geo:population>
+    <geo:name>Überlingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/D%C3%BCsseldorf">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>598686</geo:population>
+    <geo:name>Düsseldorf</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bad_Harzburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>21680</geo:population>
+    <geo:name>Bad Harzburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Deggendorf">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>31853</geo:population>
+    <geo:name>Deggendorf</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Edewecht">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>21291</geo:population>
+    <geo:name>Edewecht</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Radebeul">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen"/>
+    <geo:population>33434</geo:population>
+    <geo:name>Radebeul</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/H%C3%B6xter">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>29523</geo:population>
+    <geo:name>Höxter</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bad_Oeynhausen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>48294</geo:population>
+    <geo:name>Bad Oeynhausen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Sta%C3%9Ffurt">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen-Anhalt"/>
+    <geo:population>27060</geo:population>
+    <geo:name>Staßfurt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Steinhagen_(Westfalen)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>20301</geo:population>
+    <geo:name>Steinhagen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/M%C3%BCnster_(Westfalen)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>299708</geo:population>
+    <geo:name>Münster</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Winsen_(Luhe)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>33351</geo:population>
+    <geo:name>Winsen Luhe</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Weiterstadt">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>24274</geo:population>
+    <geo:name>Weiterstadt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Castrop-Rauxel">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>73751</geo:population>
+    <geo:name>Castrop-Rauxel</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bornheim_(Rheinland)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>46437</geo:population>
+    <geo:name>Bornheim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Weilheim_in_Oberbayern">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>21534</geo:population>
+    <geo:name>Weilheim in Oberbayern</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Melle">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>45844</geo:population>
+    <geo:name>Melle</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Teltow">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Brandenburg"/>
+    <geo:population>24031</geo:population>
+    <geo:name>Teltow</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Lemgo">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>40717</geo:population>
+    <geo:name>Lemgo</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Kassel">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>194087</geo:population>
+    <geo:name>Kassel</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Torgau">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen"/>
+    <geo:population>20092</geo:population>
+    <geo:name>Torgau</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/R%C3%B6srath">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>27792</geo:population>
+    <geo:name>Rösrath</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/L%C3%B6hne">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>39521</geo:population>
+    <geo:name>Löhne</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Ettlingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>38819</geo:population>
+    <geo:name>Ettlingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Langenfeld_(Rheinland)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>56982</geo:population>
+    <geo:name>Langenfeld Rheinland</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Offenburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>57448</geo:population>
+    <geo:name>Offenburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bad_Vilbel">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>32020</geo:population>
+    <geo:name>Bad Vilbel</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Senden_(Bayern)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>21625</geo:population>
+    <geo:name>Senden</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bad_Salzuflen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>52121</geo:population>
+    <geo:name>Bad Salzuflen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Heidelberg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>152113</geo:population>
+    <geo:name>Heidelberg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Stralsund">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Mecklenburg-Vorpommern"/>
+    <geo:population>57301</geo:population>
+    <geo:name>Stralsund</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Waiblingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>52845</geo:population>
+    <geo:name>Waiblingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Arnstadt">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Th%C3%BCringen"/>
+    <geo:population>23539</geo:population>
+    <geo:name>Arnstadt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Gelnhausen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>22099</geo:population>
+    <geo:name>Gelnhausen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Werl">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>30061</geo:population>
+    <geo:name>Werl</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Kamen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>43177</geo:population>
+    <geo:name>Kamen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Rheda-Wiedenbr%C3%BCck">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>46876</geo:population>
+    <geo:name>Rheda-Wiedenbrück</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Ehingen_(Donau)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>24786</geo:population>
+    <geo:name>Ehingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org#FN_16">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>35374</geo:population>
+    <geo:name>Porta Westfalica</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Unna">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>58856</geo:population>
+    <geo:name>Unna</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Nordhorn">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>52298</geo:population>
+    <geo:name>Nordhorn</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Blankenburg_(Harz)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen-Anhalt"/>
+    <geo:population>20745</geo:population>
+    <geo:name>Blankenburg Harz</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Marl">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>83634</geo:population>
+    <geo:name>Marl</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Herzogenaurach">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>22918</geo:population>
+    <geo:name>Herzogenaurach</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Kirchheim_unter_Teck">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>39389</geo:population>
+    <geo:name>Kirchheim unter Teck</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Delbr%C3%BCck">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>30828</geo:population>
+    <geo:name>Delbrück</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Lutherstadt_Eisleben">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen-Anhalt"/>
+    <geo:population>24284</geo:population>
+    <geo:name>Eisleben, Lutherstadt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wetzlar">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>51135</geo:population>
+    <geo:name>Wetzlar</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Greifswald">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Mecklenburg-Vorpommern"/>
+    <geo:population>56445</geo:population>
+    <geo:name>Greifswald</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Nordhausen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Th%C3%BCringen"/>
+    <geo:population>41839</geo:population>
+    <geo:name>Nordhausen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Schmallenberg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>24980</geo:population>
+    <geo:name>Schmallenberg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Stadthagen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>21594</geo:population>
+    <geo:name>Stadthagen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bielefeld">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>328864</geo:population>
+    <geo:name>Bielefeld</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Neum%C3%BCnster">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Schleswig-Holstein"/>
+    <geo:population>77058</geo:population>
+    <geo:name>Neumünster</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Baesweiler">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>26497</geo:population>
+    <geo:name>Baesweiler</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/L%C3%B6rrach">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>48307</geo:population>
+    <geo:name>Lörrach</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org#FN_17">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>33123</geo:population>
+    <geo:name>Steinfurt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/St._Wendel">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Saarland"/>
+    <geo:population>25890</geo:population>
+    <geo:name>St. Wendel</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Leichlingen_(Rheinland)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>27646</geo:population>
+    <geo:name>Leichlingen Rheinland</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Kreuztal">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>30899</geo:population>
+    <geo:name>Kreuztal</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bottrop">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>116055</geo:population>
+    <geo:name>Bottrop</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Koblenz">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Rheinland-Pfalz"/>
+    <geo:population>110643</geo:population>
+    <geo:name>Koblenz</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Griesheim">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>26198</geo:population>
+    <geo:name>Griesheim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Fr%C3%B6ndenberg/Ruhr">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>20705</geo:population>
+    <geo:name>Fröndenberg/Ruhr</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/R%C3%BCsselsheim">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>60929</geo:population>
+    <geo:name>Rüsselsheim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Ratingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>86388</geo:population>
+    <geo:name>Ratingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bedburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>22846</geo:population>
+    <geo:name>Bedburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Neukirchen-Vluyn">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>26846</geo:population>
+    <geo:name>Neukirchen-Vluyn</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Falkensee">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Brandenburg"/>
+    <geo:population>41258</geo:population>
+    <geo:name>Falkensee</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Aschaffenburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>67844</geo:population>
+    <geo:name>Aschaffenburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Norden_(Ostfriesland)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>24887</geo:population>
+    <geo:name>Norden</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Elsdorf_(Rheinland)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>20991</geo:population>
+    <geo:name>Elsdorf</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org#FN_14">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>37609</geo:population>
+    <geo:name>Leinfelden-Echterdingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Saalfeld/Saale">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Th%C3%BCringen"/>
+    <geo:population>25098</geo:population>
+    <geo:name>Saalfeld/Saale</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Hennigsdorf">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Brandenburg"/>
+    <geo:population>25800</geo:population>
+    <geo:name>Hennigsdorf</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Borken">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>41386</geo:population>
+    <geo:name>Borken</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Osterholz-Scharmbeck">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>29942</geo:population>
+    <geo:name>Osterholz-Scharmbeck</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Luckenwalde">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Brandenburg"/>
+    <geo:population>20185</geo:population>
+    <geo:name>Luckenwalde</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Ahrensburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Schleswig-Holstein"/>
+    <geo:population>31361</geo:population>
+    <geo:name>Ahrensburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Eppingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>20919</geo:population>
+    <geo:name>Eppingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Gevelsberg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>30949</geo:population>
+    <geo:name>Gevelsberg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Osterode_am_Harz">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>22317</geo:population>
+    <geo:name>Osterode am Harz</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Varel">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>23554</geo:population>
+    <geo:name>Varel</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Frankfurt_am_Main">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>701350</geo:population>
+    <geo:name>Frankfurt am Main</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Hattingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>54358</geo:population>
+    <geo:name>Hattingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Oldenburg_(Oldenburg)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>159610</geo:population>
+    <geo:name>Oldenburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wolfsburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>122457</geo:population>
+    <geo:name>Wolfsburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Geldern">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>33064</geo:population>
+    <geo:name>Geldern</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Sangerhausen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen-Anhalt"/>
+    <geo:population>27830</geo:population>
+    <geo:name>Sangerhausen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Unterhaching">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>23217</geo:population>
+    <geo:name>Unterhaching</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Friedberg_(Bayern)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>28894</geo:population>
+    <geo:name>Friedberg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Nagold_(Stadt)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>21241</geo:population>
+    <geo:name>Nagold</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/L%C3%BCnen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>84775</geo:population>
+    <geo:name>Lünen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Kehl">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>34077</geo:population>
+    <geo:name>Kehl</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org#FN_15">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>37085</geo:population>
+    <geo:name>Ostfildern</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Warburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>23302</geo:population>
+    <geo:name>Warburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org#FN_27">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>24512</geo:population>
+    <geo:name>Remseck am Neckar</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Pforzheim">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>117754</geo:population>
+    <geo:name>Pforzheim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Arnsberg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>73501</geo:population>
+    <geo:name>Arnsberg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Eckernf%C3%B6rde">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Schleswig-Holstein"/>
+    <geo:population>21792</geo:population>
+    <geo:name>Eckernförde</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Rinteln">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>25228</geo:population>
+    <geo:name>Rinteln</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Magdeburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen-Anhalt"/>
+    <geo:population>231021</geo:population>
+    <geo:name>Magdeburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Ulm">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>119218</geo:population>
+    <geo:name>Ulm</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Geilenkirchen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>26626</geo:population>
+    <geo:name>Geilenkirchen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Solingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>155768</geo:population>
+    <geo:name>Solingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Alsdorf">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>46313</geo:population>
+    <geo:name>Alsdorf</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Overath">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>26812</geo:population>
+    <geo:name>Overath</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Georgsmarienh%C3%BCtte">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>31616</geo:population>
+    <geo:name>Georgsmarienhütte</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bretten">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>28589</geo:population>
+    <geo:name>Bretten</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/W%C3%BCrzburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>124698</geo:population>
+    <geo:name>Würzburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/L%C3%BCdinghausen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>23672</geo:population>
+    <geo:name>Lüdinghausen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Marburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>73125</geo:population>
+    <geo:name>Marburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Emmendingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>26287</geo:population>
+    <geo:name>Emmendingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Rheinberg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>30610</geo:population>
+    <geo:name>Rheinberg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Friedberg_(Hessen)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>27758</geo:population>
+    <geo:name>Friedberg Hessen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Schwetzingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>21147</geo:population>
+    <geo:name>Schwetzingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Dortmund">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>575944</geo:population>
+    <geo:name>Dortmund</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/F%C3%BCrstenwalde/Spree">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Brandenburg"/>
+    <geo:population>30967</geo:population>
+    <geo:name>Fürstenwalde/Spree</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Straubing">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>45502</geo:population>
+    <geo:name>Straubing</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Vechta">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>30944</geo:population>
+    <geo:name>Vechta</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Papenburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>35614</geo:population>
+    <geo:name>Papenburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Saarlouis">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Saarland"/>
+    <geo:population>34354</geo:population>
+    <geo:name>Saarlouis</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Hoyerswerda">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen"/>
+    <geo:population>34317</geo:population>
+    <geo:name>Hoyerswerda</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Amberg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>41592</geo:population>
+    <geo:name>Amberg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Neu_Wulmstorf">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>20384</geo:population>
+    <geo:name>Neu Wulmstorf</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Backnang">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>34990</geo:population>
+    <geo:name>Backnang</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Ansbach">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>39839</geo:population>
+    <geo:name>Ansbach</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Kerpen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>63784</geo:population>
+    <geo:name>Kerpen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Euskirchen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>55558</geo:population>
+    <geo:name>Euskirchen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Sinsheim">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>34674</geo:population>
+    <geo:name>Sinsheim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Witten">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>95629</geo:population>
+    <geo:name>Witten</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org#FN_12">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>38709</geo:population>
+    <geo:name>Hückelhoven</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bergisch_Gladbach">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>109425</geo:population>
+    <geo:name>Bergisch Gladbach</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Herrenberg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>30373</geo:population>
+    <geo:name>Herrenberg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Heiligenhaus">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>25419</geo:population>
+    <geo:name>Heiligenhaus</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bad_Neuenahr-Ahrweiler">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Rheinland-Pfalz"/>
+    <geo:population>26934</geo:population>
+    <geo:name>Bad Neuenahr-Ahrweiler</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Lauf_an_der_Pegnitz">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>25993</geo:population>
+    <geo:name>Lauf an der Pegnitz</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wilhelmshaven">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>75728</geo:population>
+    <geo:name>Wilhelmshaven</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Puchheim">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>20524</geo:population>
+    <geo:name>Puchheim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bad_Hersfeld">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>28867</geo:population>
+    <geo:name>Bad Hersfeld</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Werder_(Havel)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Brandenburg"/>
+    <geo:population>23838</geo:population>
+    <geo:name>Werder Havel</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Leimen_(Baden)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>25812</geo:population>
+    <geo:name>Leimen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Sondershausen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Th%C3%BCringen"/>
+    <geo:population>21907</geo:population>
+    <geo:name>Sondershausen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Hockenheim">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>20968</geo:population>
+    <geo:name>Hockenheim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Gie%C3%9Fen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>77733</geo:population>
+    <geo:name>Gießen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org#FN_25">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>23646</geo:population>
+    <geo:name>Stutensee</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Fellbach">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>44403</geo:population>
+    <geo:name>Fellbach</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Ganderkesee">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>30460</geo:population>
+    <geo:name>Ganderkesee</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wiesbaden">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>273871</geo:population>
+    <geo:name>Wiesbaden</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Glauchau">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen"/>
+    <geo:population>23131</geo:population>
+    <geo:name>Glauchau</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Oranienburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Brandenburg"/>
+    <geo:population>42028</geo:population>
+    <geo:name>Oranienburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Konstanz">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>81141</geo:population>
+    <geo:name>Konstanz</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Schlo%C3%9F_Holte-Stukenbrock">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>26318</geo:population>
+    <geo:name>Schloß Holte-Stukenbrock</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Rastatt">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>47110</geo:population>
+    <geo:name>Rastatt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Erftstadt">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>49037</geo:population>
+    <geo:name>Erftstadt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Warendorf">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>36886</geo:population>
+    <geo:name>Warendorf</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Uelzen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>33269</geo:population>
+    <geo:name>Uelzen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Schortens">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>20191</geo:population>
+    <geo:name>Schortens</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Rheine">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>73484</geo:population>
+    <geo:name>Rheine</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Dresden">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen"/>
+    <geo:population>530754</geo:population>
+    <geo:name>Dresden</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Gersthofen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>21311</geo:population>
+    <geo:name>Gersthofen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Delmenhorst">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>74052</geo:population>
+    <geo:name>Delmenhorst</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org#FN_13">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>36846</geo:population>
+    <geo:name>Maintal</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/L%C3%BCneburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>71668</geo:population>
+    <geo:name>Lüneburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Celle">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>68508</geo:population>
+    <geo:name>Celle</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Schwerte">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>46198</geo:population>
+    <geo:name>Schwerte</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Reutlingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>111357</geo:population>
+    <geo:name>Reutlingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Kornwestheim">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>32177</geo:population>
+    <geo:name>Kornwestheim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Werne">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>29448</geo:population>
+    <geo:name>Werne</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Delitzsch">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen"/>
+    <geo:population>25005</geo:population>
+    <geo:name>Delitzsch</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Gifhorn">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>41518</geo:population>
+    <geo:name>Gifhorn</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Pfungstadt">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>24002</geo:population>
+    <geo:name>Pfungstadt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Werdau">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen"/>
+    <geo:population>21114</geo:population>
+    <geo:name>Werdau</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/N%C3%BCrnberg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>498876</geo:population>
+    <geo:name>Nürnberg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Ahaus">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>38753</geo:population>
+    <geo:name>Ahaus</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Freiburg_im_Breisgau">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>220286</geo:population>
+    <geo:name>Freiburg im Breisgau</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Krefeld">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>222058</geo:population>
+    <geo:name>Krefeld</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Heilbronn">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>118122</geo:population>
+    <geo:name>Heilbronn</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Idstein">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>23836</geo:population>
+    <geo:name>Idstein</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Willich">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>50599</geo:population>
+    <geo:name>Willich</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/B%C3%BCren_(Westfalen)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>21548</geo:population>
+    <geo:name>Büren</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Hamminkeln">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>26369</geo:population>
+    <geo:name>Hamminkeln</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wallenhorst">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>22860</geo:population>
+    <geo:name>Wallenhorst</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Gro%C3%9F-Umstadt">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>20754</geo:population>
+    <geo:name>Groß-Umstadt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Sankt_Augustin">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>54285</geo:population>
+    <geo:name>Sankt Augustin</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Weyhe">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>30047</geo:population>
+    <geo:name>Weyhe </geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Stadtallendorf">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>20763</geo:population>
+    <geo:name>Stadtallendorf</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Balingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>33270</geo:population>
+    <geo:name>Balingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Erfurt">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Th%C3%BCringen"/>
+    <geo:population>204880</geo:population>
+    <geo:name>Erfurt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Altenburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Th%C3%BCringen"/>
+    <geo:population>32992</geo:population>
+    <geo:name>Altenburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Kulmbach">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>26217</geo:population>
+    <geo:name>Kulmbach</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Grevenbroich">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>61891</geo:population>
+    <geo:name>Grevenbroich</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Waldkirch">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>21141</geo:population>
+    <geo:name>Waldkirch</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Zerbst/Anhalt">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen-Anhalt"/>
+    <geo:population>22002</geo:population>
+    <geo:name>Zerbst/Anhalt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Meppen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>34109</geo:population>
+    <geo:name>Meppen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Menden_(Sauerland)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>53354</geo:population>
+    <geo:name>Menden Sauerland</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Weimar">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Th%C3%BCringen"/>
+    <geo:population>63315</geo:population>
+    <geo:name>Weimar</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Springe">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>28336</geo:population>
+    <geo:name>Springe</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Meerbusch">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>54389</geo:population>
+    <geo:name>Meerbusch</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/V%C3%B6lklingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Saarland"/>
+    <geo:population>38468</geo:population>
+    <geo:name>Völklingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Sch%C3%B6nebeck_(Elbe)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen-Anhalt"/>
+    <geo:population>31582</geo:population>
+    <geo:name>Schönebeck</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Ingolstadt">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>129136</geo:population>
+    <geo:name>Ingolstadt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Greven">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>35278</geo:population>
+    <geo:name>Greven</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wegberg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>27713</geo:population>
+    <geo:name>Wegberg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Gauting">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>20097</geo:population>
+    <geo:name>Gauting</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Siegburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>39563</geo:population>
+    <geo:name>Siegburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Speyer">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Rheinland-Pfalz"/>
+    <geo:population>49740</geo:population>
+    <geo:name>Speyer</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Schweinfurt">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>51851</geo:population>
+    <geo:name>Schweinfurt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Landshut">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>66179</geo:population>
+    <geo:name>Landshut</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Stuhr">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>32556</geo:population>
+    <geo:name>Stuhr</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bonn">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>311287</geo:population>
+    <geo:name>Bonn</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Memmingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>41772</geo:population>
+    <geo:name>Memmingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Radevormwald">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>22025</geo:population>
+    <geo:name>Radevormwald</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wernigerode">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen-Anhalt"/>
+    <geo:population>33479</geo:population>
+    <geo:name>Wernigerode</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Waren_(M%C3%BCritz)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Mecklenburg-Vorpommern"/>
+    <geo:population>20940</geo:population>
+    <geo:name>Waren Müritz</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Lohmar">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>29679</geo:population>
+    <geo:name>Lohmar</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Schwerin">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Mecklenburg-Vorpommern"/>
+    <geo:population>91583</geo:population>
+    <geo:name>Schwerin</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Einbeck">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>31591</geo:population>
+    <geo:name>Einbeck</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Holzminden">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>20107</geo:population>
+    <geo:name>Holzminden</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Olching">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>26149</geo:population>
+    <geo:name>Olching</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wesseling">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>35224</geo:population>
+    <geo:name>Wesseling</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bad_Kissingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>21225</geo:population>
+    <geo:name>Bad Kissingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Lennestadt">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>25908</geo:population>
+    <geo:name>Lennestadt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Sindelfingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>61669</geo:population>
+    <geo:name>Sindelfingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Troisdorf">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>72978</geo:population>
+    <geo:name>Troisdorf</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Peine">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>48377</geo:population>
+    <geo:name>Peine</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Herne">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>154417</geo:population>
+    <geo:name>Herne</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Geesthacht">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Schleswig-Holstein"/>
+    <geo:population>29363</geo:population>
+    <geo:name>Geesthacht</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Crailsheim">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>32829</geo:population>
+    <geo:name>Crailsheim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Rostock">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Mecklenburg-Vorpommern"/>
+    <geo:population>203431</geo:population>
+    <geo:name>Rostock</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Calw">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>22374</geo:population>
+    <geo:name>Calw</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Hof_(Saale)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>44522</geo:population>
+    <geo:name>Hof</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Weiden_in_der_Oberpfalz">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>41726</geo:population>
+    <geo:name>Weiden in der Oberpfalz</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Limbach-Oberfrohna">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen"/>
+    <geo:population>24107</geo:population>
+    <geo:name>Limbach-Oberfrohna</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/M%C3%BChlhausen/Th%C3%BCringen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Th%C3%BCringen"/>
+    <geo:population>33007</geo:population>
+    <geo:name>Mühlhausen/Thüringen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Baunatal">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>27353</geo:population>
+    <geo:name>Baunatal</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Lengerich_(Westfalen)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>21978</geo:population>
+    <geo:name>Lengerich</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Stade">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>45317</geo:population>
+    <geo:name>Stade</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Germering">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>38478</geo:population>
+    <geo:name>Germering</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Minden">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>79969</geo:population>
+    <geo:name>Minden</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Leutkirch_im_Allg%C3%A4u">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>21837</geo:population>
+    <geo:name>Leutkirch im Allgäu</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Essen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>569884</geo:population>
+    <geo:name>Essen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Lahr/Schwarzwald">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>43728</geo:population>
+    <geo:name>Lahr/Schwarzwald</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/T%C3%BCbingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>85383</geo:population>
+    <geo:name>Tübingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Vaterstetten">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>22087</geo:population>
+    <geo:name>Vaterstetten </geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Beckum">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>35909</geo:population>
+    <geo:name>Beckum</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Aachen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>241683</geo:population>
+    <geo:name>Aachen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Lichtenfels_(Oberfranken)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>20013</geo:population>
+    <geo:name>Lichtenfels</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Monheim_am_Rhein">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>40098</geo:population>
+    <geo:name>Monheim am Rhein</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Worms">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Rheinland-Pfalz"/>
+    <geo:population>80296</geo:population>
+    <geo:name>Worms</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Cottbus">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Brandenburg"/>
+    <geo:population>99595</geo:population>
+    <geo:name>Cottbus</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/G%C3%B6ttingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>116891</geo:population>
+    <geo:name>Göttingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Gronau_(Westf.)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>45998</geo:population>
+    <geo:name>Gronau Westf.</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Merseburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen-Anhalt"/>
+    <geo:population>33432</geo:population>
+    <geo:name>Merseburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Warstein">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>25247</geo:population>
+    <geo:name>Warstein</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bernau_bei_Berlin">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Brandenburg"/>
+    <geo:population>36222</geo:population>
+    <geo:name>Bernau bei Berlin</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Hattersheim_am_Main">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>25740</geo:population>
+    <geo:name>Hattersheim am Main</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bautzen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen"/>
+    <geo:population>39607</geo:population>
+    <geo:name>Bautzen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Salzwedel">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen-Anhalt"/>
+    <geo:population>24282</geo:population>
+    <geo:name>Salzwedel</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Seelze">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>32397</geo:population>
+    <geo:name>Seelze</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Nienburg/Weser">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>30677</geo:population>
+    <geo:name>Nienburg/Weser</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Hameln">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>56260</geo:population>
+    <geo:name>Hameln</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/B%C3%BChl_(Baden)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>28566</geo:population>
+    <geo:name>Bühl</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Horb_am_Neckar">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>24308</geo:population>
+    <geo:name>Horb am Neckar</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Blankenfelde-Mahlow">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Brandenburg"/>
+    <geo:population>25664</geo:population>
+    <geo:name>Blankenfelde-Mahlow </geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Burgdorf_(Region_Hannover)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>29397</geo:population>
+    <geo:name>Burgdorf</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/K%C3%B6nigswinter">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>39976</geo:population>
+    <geo:name>Königswinter</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Paderborn">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>143659</geo:population>
+    <geo:name>Paderborn</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/L%C3%BCdenscheid">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>72927</geo:population>
+    <geo:name>Lüdenscheid</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wesel">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>60070</geo:population>
+    <geo:name>Wesel</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Velbert">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>80572</geo:population>
+    <geo:name>Velbert</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Hofheim_am_Taunus">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>38556</geo:population>
+    <geo:name>Hofheim am Taunus</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Cuxhaven">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>48325</geo:population>
+    <geo:name>Cuxhaven</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Butzbach">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>24384</geo:population>
+    <geo:name>Butzbach</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wetter_(Ruhr)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>27596</geo:population>
+    <geo:name>Wetter Ruhr</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Pinneberg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Schleswig-Holstein"/>
+    <geo:population>42055</geo:population>
+    <geo:name>Pinneberg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Achern">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>24618</geo:population>
+    <geo:name>Achern</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Herten">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>60582</geo:population>
+    <geo:name>Herten</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Ilmenau">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Th%C3%BCringen"/>
+    <geo:population>25949</geo:population>
+    <geo:name>Ilmenau</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Coburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>40994</geo:population>
+    <geo:name>Coburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Homburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Saarland"/>
+    <geo:population>41416</geo:population>
+    <geo:name>Homburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Lingen_(Ems)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>52158</geo:population>
+    <geo:name>Lingen Ems</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Neckarsulm">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>25762</geo:population>
+    <geo:name>Neckarsulm</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Aalen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>66813</geo:population>
+    <geo:name>Aalen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Ennepetal">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>29825</geo:population>
+    <geo:name>Ennepetal</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Eschborn">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>20731</geo:population>
+    <geo:name>Eschborn</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Markkleeberg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen"/>
+    <geo:population>23940</geo:population>
+    <geo:name>Markkleeberg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Dormagen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>62498</geo:population>
+    <geo:name>Dormagen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Obertshausen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>23921</geo:population>
+    <geo:name>Obertshausen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Rottenburg_am_Neckar">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>41718</geo:population>
+    <geo:name>Rottenburg am Neckar</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/B%C3%BCnde">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>45189</geo:population>
+    <geo:name>Bünde</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Ellwangen_(Jagst)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>23555</geo:population>
+    <geo:name>Ellwangen Jagst</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Mechernich">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>26763</geo:population>
+    <geo:name>Mechernich</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Verl">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>24947</geo:population>
+    <geo:name>Verl</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Eisenh%C3%BCttenstadt">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Brandenburg"/>
+    <geo:population>27205</geo:population>
+    <geo:name>Eisenhüttenstadt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Hamm">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>176048</geo:population>
+    <geo:name>Hamm</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Norderstedt">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Schleswig-Holstein"/>
+    <geo:population>75394</geo:population>
+    <geo:name>Norderstedt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wagh%C3%A4usel">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>20195</geo:population>
+    <geo:name>Waghäusel</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Kitzingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>20449</geo:population>
+    <geo:name>Kitzingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Schorndorf">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>38431</geo:population>
+    <geo:name>Schorndorf</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Itzehoe">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Schleswig-Holstein"/>
+    <geo:population>31035</geo:population>
+    <geo:name>Itzehoe</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/G%C3%B6ppingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>55571</geo:population>
+    <geo:name>Göppingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Darmstadt">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>149743</geo:population>
+    <geo:name>Darmstadt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Grimma">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen"/>
+    <geo:population>28553</geo:population>
+    <geo:name>Grimma</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bad_Nauheim">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>30879</geo:population>
+    <geo:name>Bad Nauheim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Husum">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Schleswig-Holstein"/>
+    <geo:population>22053</geo:population>
+    <geo:name>Husum</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Halberstadt">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen-Anhalt"/>
+    <geo:population>40323</geo:population>
+    <geo:name>Halberstadt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Haren_(Ems)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>23090</geo:population>
+    <geo:name>Haren Ems</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Mainz">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Rheinland-Pfalz"/>
+    <geo:population>204268</geo:population>
+    <geo:name>Mainz</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Heppenheim_(Bergstra%C3%9Fe)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>25013</geo:population>
+    <geo:name>Heppenheim Bergstraße</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Siegen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>99403</geo:population>
+    <geo:name>Siegen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Neubrandenburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Mecklenburg-Vorpommern"/>
+    <geo:population>63437</geo:population>
+    <geo:name>Neubrandenburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Mosbach">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>22735</geo:population>
+    <geo:name>Mosbach</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Brilon">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>25499</geo:population>
+    <geo:name>Brilon</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bramsche">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>30134</geo:population>
+    <geo:name>Bramsche</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Trier">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Rheinland-Pfalz"/>
+    <geo:population>107233</geo:population>
+    <geo:name>Trier</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Garbsen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>59912</geo:population>
+    <geo:name>Garbsen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wiehl">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>25047</geo:population>
+    <geo:name>Wiehl</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Rietberg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>28696</geo:population>
+    <geo:name>Rietberg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Spremberg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Brandenburg"/>
+    <geo:population>22431</geo:population>
+    <geo:name>Spremberg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Hennef_(Sieg)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>45806</geo:population>
+    <geo:name>Hennef Sieg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wolfenb%C3%BCttel">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>51569</geo:population>
+    <geo:name>Wolfenbüttel</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Westoverledingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>20036</geo:population>
+    <geo:name>Westoverledingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Reinbek">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Schleswig-Holstein"/>
+    <geo:population>26514</geo:population>
+    <geo:name>Reinbek</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Rosenheim">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>60464</geo:population>
+    <geo:name>Rosenheim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Goch">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>33063</geo:population>
+    <geo:name>Goch</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Unterschlei%C3%9Fheim">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>26363</geo:population>
+    <geo:name>Unterschleißheim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Braunschweig">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>247227</geo:population>
+    <geo:name>Braunschweig</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Merzig">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Saarland"/>
+    <geo:population>29668</geo:population>
+    <geo:name>Merzig</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Hohen_Neuendorf">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Brandenburg"/>
+    <geo:population>25001</geo:population>
+    <geo:name>Hohen Neuendorf</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Oelde">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>29014</geo:population>
+    <geo:name>Oelde</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/G%C3%BCtersloh">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>95507</geo:population>
+    <geo:name>Gütersloh</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wandlitz">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Brandenburg"/>
+    <geo:population>21212</geo:population>
+    <geo:name>Wandlitz</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wertheim">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>22415</geo:population>
+    <geo:name>Wertheim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Soltau">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>21120</geo:population>
+    <geo:name>Soltau</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Vaihingen_an_der_Enz">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>28080</geo:population>
+    <geo:name>Vaihingen an der Enz</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Pulheim">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>53109</geo:population>
+    <geo:name>Pulheim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org#FN_1">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen"/>
+    <geo:population>242022</geo:population>
+    <geo:name>Chemnitz</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Vreden">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>22389</geo:population>
+    <geo:name>Vreden</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Kempen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>34618</geo:population>
+    <geo:name>Kempen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Leer_(Ostfriesland)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>33891</geo:population>
+    <geo:name>Leer</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Viersen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>74907</geo:population>
+    <geo:name>Viersen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Kamp-Lintfort">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>36973</geo:population>
+    <geo:name>Kamp-Lintfort</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/D%C3%B6beln">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen"/>
+    <geo:population>20699</geo:population>
+    <geo:name>Döbeln</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bruchsal">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>42871</geo:population>
+    <geo:name>Bruchsal</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Ludwigsfelde">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Brandenburg"/>
+    <geo:population>23956</geo:population>
+    <geo:name>Ludwigsfelde</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Kempten_(Allg%C3%A4u)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>65044</geo:population>
+    <geo:name>Kempten Allgäu</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Plettenberg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>25684</geo:population>
+    <geo:name>Plettenberg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Haltern_am_See">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>37266</geo:population>
+    <geo:name>Haltern am See</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Greiz">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Th%C3%BCringen"/>
+    <geo:population>21284</geo:population>
+    <geo:name>Greiz</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Halle_(Westf.)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>21167</geo:population>
+    <geo:name>Halle Westf.</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Coswig_(Sachsen)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen"/>
+    <geo:population>20560</geo:population>
+    <geo:name>Coswig</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Voerde_(Niederrhein)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>36514</geo:population>
+    <geo:name>Voerde Niederrhein</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Rendsburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Schleswig-Holstein"/>
+    <geo:population>27325</geo:population>
+    <geo:name>Rendsburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Neumarkt_in_der_Oberpfalz">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>38477</geo:population>
+    <geo:name>Neumarkt in der Oberpfalz</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Pirna">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen"/>
+    <geo:population>37645</geo:population>
+    <geo:name>Pirna</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org#FN_2">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen-Anhalt"/>
+    <geo:population>83616</geo:population>
+    <geo:name>Dessau-Roßlau</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Landsberg_am_Lech">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>28069</geo:population>
+    <geo:name>Landsberg am Lech</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Achim_(Landkreis_Verden)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>29991</geo:population>
+    <geo:name>Achim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Offenbach_am_Main">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>119203</geo:population>
+    <geo:name>Offenbach am Main</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Neuwied">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Rheinland-Pfalz"/>
+    <geo:population>63883</geo:population>
+    <geo:name>Neuwied</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Schwabach">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>39546</geo:population>
+    <geo:name>Schwabach</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Moers">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>103108</geo:population>
+    <geo:name>Moers</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Verden_(Aller)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>26668</geo:population>
+    <geo:name>Verden Aller</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Radolfzell_am_Bodensee">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>30271</geo:population>
+    <geo:name>Radolfzell am Bodensee</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/H%C3%BCrth">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>57230</geo:population>
+    <geo:name>Hürth</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Riesa">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen"/>
+    <geo:population>31423</geo:population>
+    <geo:name>Riesa</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Leverkusen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>160819</geo:population>
+    <geo:name>Leverkusen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Neunkirchen_(Saar)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Saarland"/>
+    <geo:population>45602</geo:population>
+    <geo:name>Neunkirchen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Helmstedt">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>22934</geo:population>
+    <geo:name>Helmstedt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Ronnenberg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>23539</geo:population>
+    <geo:name>Ronnenberg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org#FN_3">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>81128</geo:population>
+    <geo:name>Villingen-Schwenningen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Lohne_(Oldenburg)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>25249</geo:population>
+    <geo:name>Lohne Oldenburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Roth">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>24339</geo:population>
+    <geo:name>Roth</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Attendorn">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>24336</geo:population>
+    <geo:name>Attendorn</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Ludwigsburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>89639</geo:population>
+    <geo:name>Ludwigsburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Duderstadt">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>20860</geo:population>
+    <geo:name>Duderstadt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/%C3%96hringen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>22777</geo:population>
+    <geo:name>Öhringen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bremen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Freie_Hansestadt_Bremen"/>
+    <geo:population>548547</geo:population>
+    <geo:name>Bremen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Recklinghausen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>115320</geo:population>
+    <geo:name>Recklinghausen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Viernheim">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>33120</geo:population>
+    <geo:name>Viernheim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bergkamen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>48209</geo:population>
+    <geo:name>Bergkamen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bremerhaven">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Freie_Hansestadt_Bremen"/>
+    <geo:population>108844</geo:population>
+    <geo:name>Bremerhaven</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wipperf%C3%BCrth">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>21336</geo:population>
+    <geo:name>Wipperfürth</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Leonberg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>45458</geo:population>
+    <geo:name>Leonberg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Herzogenrath">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>46546</geo:population>
+    <geo:name>Herzogenrath</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Stadtlohn">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>20005</geo:population>
+    <geo:name>Stadtlohn</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Waldkraiburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>22525</geo:population>
+    <geo:name>Waldkraiburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/N%C3%BCrtingen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>39755</geo:population>
+    <geo:name>Nürtingen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Gaggenau">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>28546</geo:population>
+    <geo:name>Gaggenau</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wei%C3%9Fenfels">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen-Anhalt"/>
+    <geo:population>39909</geo:population>
+    <geo:name>Weißenfels</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Rheinfelden_(Baden)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>32245</geo:population>
+    <geo:name>Rheinfelden Baden</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/%C3%9Cbach-Palenberg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>23948</geo:population>
+    <geo:name>Übach-Palenberg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bensheim">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>39368</geo:population>
+    <geo:name>Bensheim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org#FN_4">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>44056</geo:population>
+    <geo:name>Albstadt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Ibbenb%C3%BCren">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>50438</geo:population>
+    <geo:name>Ibbenbüren</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Stendal">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen-Anhalt"/>
+    <geo:population>40028</geo:population>
+    <geo:name>Stendal</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Flensburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Schleswig-Holstein"/>
+    <geo:population>83971</geo:population>
+    <geo:name>Flensburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Espelkamp">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>24604</geo:population>
+    <geo:name>Espelkamp</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Kaltenkirchen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Schleswig-Holstein"/>
+    <geo:population>20080</geo:population>
+    <geo:name>Kaltenkirchen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Meckenheim_(Rheinland)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>23628</geo:population>
+    <geo:name>Meckenheim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Zeitz">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen-Anhalt"/>
+    <geo:population>29557</geo:population>
+    <geo:name>Zeitz</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Korschenbroich">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>32305</geo:population>
+    <geo:name>Korschenbroich</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Strausberg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Brandenburg"/>
+    <geo:population>25744</geo:population>
+    <geo:name>Strausberg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Dietzenbach">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>32750</geo:population>
+    <geo:name>Dietzenbach</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/M%C3%BChlacker">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>24931</geo:population>
+    <geo:name>Mühlacker</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wunstorf">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>40636</geo:population>
+    <geo:name>Wunstorf</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Karben">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>21716</geo:population>
+    <geo:name>Karben</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Salzkotten">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>24547</geo:population>
+    <geo:name>Salzkotten</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Goslar">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>50681</geo:population>
+    <geo:name>Goslar</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Zittau">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen"/>
+    <geo:population>25950</geo:population>
+    <geo:name>Zittau</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Kiel">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Schleswig-Holstein"/>
+    <geo:population>241533</geo:population>
+    <geo:name>Kiel</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Zirndorf">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>25957</geo:population>
+    <geo:name>Zirndorf</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Neu-Ulm">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>54969</geo:population>
+    <geo:name>Neu-Ulm</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Elmshorn">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Schleswig-Holstein"/>
+    <geo:population>47667</geo:population>
+    <geo:name>Elmshorn</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Karlsruhe">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>299103</geo:population>
+    <geo:name>Karlsruhe</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bayreuth">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>71572</geo:population>
+    <geo:name>Bayreuth</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Kaiserslautern">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Rheinland-Pfalz"/>
+    <geo:population>97162</geo:population>
+    <geo:name>Kaiserslautern</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bochum">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>361734</geo:population>
+    <geo:name>Bochum</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wangen_im_Allg%C3%A4u">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>26548</geo:population>
+    <geo:name>Wangen im Allgäu</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Fulda">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>65036</geo:population>
+    <geo:name>Fulda</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Schwandorf">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>27817</geo:population>
+    <geo:name>Schwandorf</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Regensburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>140276</geo:population>
+    <geo:name>Regensburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wittmund">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>20363</geo:population>
+    <geo:name>Wittmund</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Garmisch-Partenkirchen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>26102</geo:population>
+    <geo:name>Garmisch-Partenkirchen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/K%C3%B6ln">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>1034175</geo:population>
+    <geo:name>Köln</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Rottweil">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>24378</geo:population>
+    <geo:name>Rottweil</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bad_Oldesloe">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Schleswig-Holstein"/>
+    <geo:population>24477</geo:population>
+    <geo:name>Bad Oldesloe</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Sankt_Ingbert">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Saarland"/>
+    <geo:population>36254</geo:population>
+    <geo:name>Sankt Ingbert</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bruchk%C3%B6bel">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>20265</geo:population>
+    <geo:name>Bruchköbel</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bamberg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>71167</geo:population>
+    <geo:name>Bamberg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Senden_(Westfalen)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>20142</geo:population>
+    <geo:name>Senden</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Neuburg_an_der_Donau">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>28748</geo:population>
+    <geo:name>Neuburg an der Donau</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Lindau_(Bodensee)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>24560</geo:population>
+    <geo:name>Lindau Bodensee</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bergheim">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>59272</geo:population>
+    <geo:name>Bergheim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Ahlen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>51766</geo:population>
+    <geo:name>Ahlen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Osnabr%C3%BCck">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>156315</geo:population>
+    <geo:name>Osnabrück</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Singen_(Hohentwiel)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>45717</geo:population>
+    <geo:name>Singen Hohentwiel</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Gro%C3%9F-Gerau">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>24076</geo:population>
+    <geo:name>Groß-Gerau</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Germersheim">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Rheinland-Pfalz"/>
+    <geo:population>20201</geo:population>
+    <geo:name>Germersheim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Neustrelitz">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Mecklenburg-Vorpommern"/>
+    <geo:population>20399</geo:population>
+    <geo:name>Neustrelitz</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/K%C3%B6nigsbrunn">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>27487</geo:population>
+    <geo:name>Königsbrunn</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Oer-Erkenschwick">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>30550</geo:population>
+    <geo:name>Oer-Erkenschwick</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Seligenstadt">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>20431</geo:population>
+    <geo:name>Seligenstadt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Weil_am_Rhein">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>29298</geo:population>
+    <geo:name>Weil am Rhein</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Harsewinkel">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>23789</geo:population>
+    <geo:name>Harsewinkel</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Oberursel_(Taunus)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>44779</geo:population>
+    <geo:name>Oberursel Taunus</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Emden">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>49790</geo:population>
+    <geo:name>Emden</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Kevelaer">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>27635</geo:population>
+    <geo:name>Kevelaer</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Weinheim">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>43624</geo:population>
+    <geo:name>Weinheim</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Gera">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Th%C3%BCringen"/>
+    <geo:population>94977</geo:population>
+    <geo:name>Gera</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Kelkheim_(Taunus)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>28190</geo:population>
+    <geo:name>Kelkheim Taunus</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Herdecke">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>22572</geo:population>
+    <geo:name>Herdecke</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Henstedt-Ulzburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Schleswig-Holstein"/>
+    <geo:population>27269</geo:population>
+    <geo:name>Henstedt-Ulzburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Lutherstadt_Wittenberg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen-Anhalt"/>
+    <geo:population>46729</geo:population>
+    <geo:name>Wittenberg, Lutherstadt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Friesoythe">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>21335</geo:population>
+    <geo:name>Friesoythe</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Alfter">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>23003</geo:population>
+    <geo:name>Alfter</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Laatzen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>39526</geo:population>
+    <geo:name>Laatzen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Aschersleben">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen-Anhalt"/>
+    <geo:population>27995</geo:population>
+    <geo:name>Aschersleben</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Baden-Baden">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>53012</geo:population>
+    <geo:name>Baden-Baden</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Dinslaken">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>67190</geo:population>
+    <geo:name>Dinslaken</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Zwickau">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen"/>
+    <geo:population>91564</geo:population>
+    <geo:name>Zwickau</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Coesfeld">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>35813</geo:population>
+    <geo:name>Coesfeld</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Passau">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>49454</geo:population>
+    <geo:name>Passau</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Erlangen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>105624</geo:population>
+    <geo:name>Erlangen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Langenhagen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>51847</geo:population>
+    <geo:name>Langenhagen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Eschweiler">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>55026</geo:population>
+    <geo:name>Eschweiler</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Frankenthal_(Pfalz)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Rheinland-Pfalz"/>
+    <geo:population>47332</geo:population>
+    <geo:name>Frankenthal Pfalz</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Bad_Soden_am_Taunus">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hessen"/>
+    <geo:population>21556</geo:population>
+    <geo:name>Bad Soden am Taunus</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Neuss">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>152252</geo:population>
+    <geo:name>Neuss</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Pfaffenhofen_an_der_Ilm">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>24441</geo:population>
+    <geo:name>Pfaffenhofen an der Ilm</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Biberach_an_der_Ri%C3%9F">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Baden-W%C3%BCrttemberg"/>
+    <geo:population>31419</geo:population>
+    <geo:name>Biberach an der Riß</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/G%C3%B6rlitz">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen"/>
+    <geo:population>54042</geo:population>
+    <geo:name>Görlitz</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Wedemark">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>28745</geo:population>
+    <geo:name>Wedemark </geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Dillingen/Saar">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Saarland"/>
+    <geo:population>20183</geo:population>
+    <geo:name>Dillingen/Saar</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Erding">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Bayern"/>
+    <geo:population>35295</geo:population>
+    <geo:name>Erding</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Westerstede">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>21919</geo:population>
+    <geo:name>Westerstede</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Frechen">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>51080</geo:population>
+    <geo:name>Frechen</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/M%C3%B6nchengladbach">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>255430</geo:population>
+    <geo:name>Mönchengladbach</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Haan">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Nordrhein-Westfalen"/>
+    <geo:population>29985</geo:population>
+    <geo:name>Haan</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/K%C3%B6then_(Anhalt)">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Sachsen-Anhalt"/>
+    <geo:population>26889</geo:population>
+    <geo:name>Köthen Anhalt</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Nordenham">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Niedersachsen"/>
+    <geo:population>26262</geo:population>
+    <geo:name>Nordenham</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Hamburg">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Hamburg"/>
+    <geo:population>1746342</geo:population>
+    <geo:name>Hamburg</geo:name>
+  </dbo:city>
+  <dbo:city rdf:about="http://de.wikipedia.org/wiki/Berlin">
+    <dbo:federalState rdf:resource="http://de.wikipedia.org/wiki/Berlin"/>
+    <geo:population>3421829</geo:population>
+    <geo:name>Berlin</geo:name>
+  </dbo:city>
+</rdf:RDF>
